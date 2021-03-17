@@ -1,0 +1,14 @@
+.food-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    transition: all 0.2s ease;
+}
+
+.food-image:hover {
+    cursor: pointer;
+    transform: scale(1.025);
+}
+.food-image:active {
+    transform: scale(1);
+}
